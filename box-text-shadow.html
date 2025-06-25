@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website using shadow</title>
+    <style>
+        body{
+            background-image: url("https://wallpapers.com/images/featured/instagram-background-u31qltpttuebqgzn.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .con1{
+            padding: 100px;
+            text-shadow: 4px 4px 6px yellow;
+        }
+        .con2{
+            background-image: url("https://i.pinimg.com/736x/79/7b/57/797b571b4f1631fd6e28428cb37dd1d9.jpg");
+            height: 500px;
+            width: 400px;
+            border-radius: 15px;
+            padding:100px 10px;
+            box-shadow: 3px 3px 10px 5px black;
+        }
+        .insta{
+            text-shadow: 4px 4px 6px black;
+        }
+        .login{
+            width: 100%;
+            padding: 12px;
+            background-color: #0087f6;
+            border-radius: 6px;
+            color: white;
+            font-weight: bold;
+        }
+        .email{
+            background-color: rgba(0, 0, 0, 0.626);
+            border-radius: 6px;
+            color: white;
+            width: 380px;
+            padding: 12px;
+        }
+        .password{
+            background-color: rgba(0, 0, 0, 0.626);
+            border-radius: 6px;
+            color: white;
+            width: 380px;
+            padding: 12px;
+        }
+        .text{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="con1">
+        <i><h1 style="color: black;">Instagram</h1></i>
+    </div>
+    <center>
+    <div class="con2">
+        <i><h1 class="insta" style="color: hotpink;">Instagram</h1></i><br>
+        <form>
+            <input class="email" type="text" placeholder="Phone number, username or email address" required><br><br>
+            <input class="password" type="password" placeholder="Password" required>
+            <p class="text"><a href="#">Forgotten password?</a></p><br>
+            <button type="submit" class="login" s>Log In</button><br><br>
+            <p>OR</p><br><br>
+        </form>
+        <a href="#" class="facebook-login">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_%282019%29.png" height="30px" width="30px" alt="Facebook Logo">
+    Log in with Facebook
+  </a><br><br><br><br><br>
+        <hr>
+    <p>Don't have an account? <a href="">sign up</a></p>
+    </div>
+    </center>
+</body>
+</html>
